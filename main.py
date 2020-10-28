@@ -5,6 +5,6 @@ app = FastAPI()
 #domain where this api is hosted for example : localhost:5000/docs to see swagger documentation automagically generated.
 
 
-@app.get("/")
+@app.get("/signin")
 def signin():
     return {"message":"Hello My Friend"}
