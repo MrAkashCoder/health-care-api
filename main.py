@@ -6,5 +6,5 @@ app = FastAPI()
 
 
 @app.get("/")
-def home():
+def signin():
     return {"message":"Hello My Friend"}
